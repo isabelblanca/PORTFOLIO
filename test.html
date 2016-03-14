@@ -1,53 +1,51 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Documento sin título</title>
-<link type="text/css" rel="stylesheet" href="styles/main.css">
-<link type="text/css" rel="stylesheet" href="styles/bootstrap.css">
-<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-</head>
-
-<body class="container container-fluid">
-
-<div class="row greyBorder">
-	<div class="col-sm-6 col-md-6 col-lg-6" style="padding:0px;">
-		<img src="images/nameImg.jpg" id="logo">
-  </div>
-	<div class=" col-sm-6 col-md-6 col-lg-6 greyColor" id="nameDiv">	
-    <h1 class="name greyColor latoFont thinLato">ISABEL BLANCO</h1>
-		<h2 class="name latoFont name">Front-end developer</h2>
-  </div>
-</div>
-
-<div class="row"id="mainImgDiv" >
-	<img src="images/htmlImage.jpg" id="mainImage" class="img-responsive">
-</div>
-<div class="row" >
-  <h3 class="latoFont greyColor">Featured work</h3>
-</div>
-<div class="row" class="greyBorder">
-
-	<div class="col-sm-4 col-lg-4 workDivs">
-    <img src="images/work1.png" class="redBorder workImages img-responsive">
-    <h4 class="latoFont centerAlign greenColor workTitles">PORTFOLIO</h4>
-    <p class="centerAlign workAnchors thinLato greenColor"><a>www.isabelblancoportfolio.com</a></p>
-  </div>
-
-  <div class="col-sm-4 col-lg-4 workDivs">
-   	<img src="images/work2.png" class="redBorder workImages img-responsive">
-    <h4 class="img2 latoFont centerAlign greenColor workTitles">A WEB BOOK</h4>
-    <p class="centerAlign greenColor thinLato workAnchors"><a>www.webooks.com</a></p>
-    </div>
-
-  <div class="col-sm-4 col-lg-4 workDivs">
-   	<img src="images/work3.png" class="redBorder workImages img-responsive">
-    <h4 class="img3 latoFont centerAlign greenColor workTitles">VALENCIA WEBSITE</h4>
-     <p class="centerAlign thinLato workAnchors greenColor"><a>www.cityofvalencia.com</a></p>
-  </div>
-</div>
-    
-
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+  </head>
+  <body class="container-fluid">
+    <header class="row">
+	    <div class="col-sm-6 col-md-6 col-lg-6 noPadding">
+		    <img src="images/nameImg.jpg" alt="My Name" id="logo">
+      </div>
+	    <div class=" col-sm-6 col-md-6 col-lg-6 greyColor" id="nameDiv">
+        <h1 class="name greyColor latoFont thinLato">ISABEL BLANCO</h1>
+		    <h2 class="name latoFont name">Front-end developer</h2>
+      </div>
+      <hr>
+    </header>
+    <section class="row" id="mainImgDiv">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+	      <img src="images/htmlImage.jpg" alt="HTML image" id="mainImage" class="img-responsive">
+      </div>
+    </section>
+    <section class="row" >
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <h3 class="latoFont greyColor">Featured work</h3>
+      </div>
+    </section>
+    <section class="row">
+	    <article class="col-sm-4 col-lg-4 workDivs">
+        <img src="images/work1.png" alt="example 1" class="redBorder workImages img-responsive">
+        <h4 class="latoFont centerAlign greenColor workTitles">PORTFOLIO</h4>
+        <p class="centerAlign workAnchors thinLato greenColor"><a>www.isabelblancoportfolio.com</a></p>
+      </article>
+      <article class="col-sm-4 col-lg-4 workDivs">
+   	    <img src="images/work2.png" alt="example 2" class="redBorder workImages img-responsive">
+        <h4 class="img2 latoFont centerAlign greenColor workTitles">A WEB BOOK</h4>
+        <p class="centerAlign greenColor thinLato workAnchors"><a>www.webooks.com</a></p>
+      </article>
+      <article class="col-sm-4 col-lg-4 workDivs">
+   	    <img src="images/work3.png" alt="example 3" class="redBorder workImages img-responsive">
+        <h4 class="img3 latoFont centerAlign greenColor workTitles">VALENCIA WEBSITE</h4>
+        <p class="centerAlign thinLato workAnchors greenColor"><a>www.cityofvalencia.com</a></p>
+      </article>
+      <hr>
+    </section>
+  </body>
 </html>
